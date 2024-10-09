@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 02 - HTML</title>
+    <link rel="shortcut icon" href="./assets/images/cowboy.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Resumo da Atividade 02</h1>
+    <h2>Outras Páginas</h2>
+    <p>Para acessar a página 2 é so clicar na opção abaixo.</p>
+    <a href="./pag02.html">Acessar página 02!</a> <!-- lembra de usar o "./" na busca de arquivos no "href", "src"... -->
+    <p>Para acessar a área de login clique abaixo.</p>
+    <a href="#login">Área de Login!</a>
+    <h2>Imagem</h2>
+    <img src="./assets/images/foto-p.png" alt="imagem teste">
+    <h2>Listas Numerada/Não Numerada</h2>
+    <p>Top objetos</p>
+    <ol>
+        <li>Cama</li>
+        <li>Computador</li>
+        <li>Sofa</li>
+    </ol>
+    <p>Lista de compras</p>
+    <ul>
+        <li>Banana</li>
+        <li>Feijão</li>
+        <li>Carne</li>
+        <li>Maçã</li>
+        <li>Macarrão</li>
+        <li>Arroz</li>
+    </ul>
+    <p>Lista de Genero</p>
+    <ul>
+        <li>Terror</li>
+        <ol>
+            <li>Haloween</li>
+            <li>Sexta-Feira 13</li>
+            <li>Alien</li>
+        </ol>
+        <li>Ação</li>
+        <ol>
+            <li>Veloses e furiosos</li>
+            <li>Em Ritmo de Fuga</li>
+            <li>John Wick</li>
+        </ol>
+        <li>Super-Heroi</li>
+        <ol>
+            <li>Super-man</li>
+            <li>Homem de Ferro</li>
+            <li>Capitão America</li>
+        </ol>
+    </ul>
+    <p>Lista de Jogos Por Console</p>
+    <ol>
+        <li>PlayStation 2</li>
+        <ul type="circle">
+            <li>Need For Speed</li>
+            <li>God of War</li>
+            <li>RezendeEvil 4</li>
+        </ul>
+        <li>Xbox 360</li>
+        <ul>
+            <li>Forza Horazon</li>
+            <li>Lego Batman 2</li>
+            <li>Skate 3</li>
+        </ul>
+        <li>PC</li>
+        <ul>
+            <li>Dark Souls</li>
+            <li>CS:GO</li>
+            <li>League of Legends</li>
+        </ul>
+    </ol>
+    <h2 id="login">Form/Label/Input</h2>
+    <p>Pequeno cadastro</p>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome"><br><br>
+        <label for="e-mail">E-mail:</label>
+        <input type="email" id="e-mail"><br><br>
+        <label for="data">Data de Nascimento:</label>
+        <input type="date" id="data"><br><br>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha"><br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
