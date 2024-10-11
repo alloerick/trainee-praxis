@@ -1,0 +1,35 @@
+@charset "UTF - 8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #cfcff5;
+}
+
+main {
+    background-color: #ffffff;
+    
+    max-width: 800px;
+    margin: auto;
+}
+
+aside {
+    display: flex;
+}
+
+p {
+    padding: 10px;
+    height: 200px;
+    width: 500px;
+}
+
+div {
+    background-color: #0000ff;
+    
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+}
