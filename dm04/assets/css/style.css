@@ -9,6 +9,7 @@
 body {
     background-color: #cfcff5;
 }
+
 header {
     background-color: #444492;
     color: #ffffff;
@@ -53,7 +54,6 @@ article ul {
     list-style-type: '\1F4CC\00A0';
     list-style-position: inside;
 }
-
 article ul > li {
     font-size: 1.2em;
     font-weight: normal;
