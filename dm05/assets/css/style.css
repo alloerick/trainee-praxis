@@ -12,18 +12,52 @@ body {
     background-color: #000000;
 }
 
+header {
+    display: flex;
+    align-items: center;
+}
+header > img {
+    width: 72px;
+    padding: 10px;
+}
+header > nav {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav > a {
+    text-decoration: none;    
+    
+    padding: 0px 20px;
+}
+
 article {
     background-image: url(../image/Background.png);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 100%;
 }
+
 article > div {
+    width: 100%;
+    text-align: center;
+}
+
+article > div h1 {
+    display: inline-block;
+
     color: #ffffff;
     background-color: transparent;
+    font: normal 0.8em helvetica;
+
+    padding: 10px 20px;
+    margin: 70px auto;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
 }
+
 article > div img{
     display: block;
     width: 400px;
+    margin: auto;
 }
-
