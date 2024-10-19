@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+    color: #ffffff;
+    font-family: Helvetica, Arial, sans-serif;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #000000;
+}
+
+article > img {
+    width: 800px;
+
+    position: absolute;
+}
+
+article > div {
+    color: #ffffff;
+    background-color: transparent;
+
+    position: relative;
+}
+article > div img{
+    display: block;
+    width: 400px;
+}
+
