@@ -1,0 +1,70 @@
+header - [img: logo team cherry]
+
+	nav - Jogo / Plataforma / História / Sceenshots / Trailer / Team Cherry
+
+main - [img: background: gameplay]
+
+O SEGUNDO JOGO DA TEAM CHERRY
+
+[img: logo hollow knight]
+[img: personagem hollow]
+
+Disponível em:
+
+[imgs: logo steam, humble, switch, xbox pass, gog]
+
+Ascenda até o Pico de um Reino Assombrado
+
+Capturada e Levada para uma Terra Distante
+
+Hornet, princesa protetora de Hallownest, encontra-se sozinha em um mundo vasto e desconhecido.
+
+Ela deve lutar contra inimigos, procurar aliados e resolver mistérios enquanto ascende em uma peregrinação mortal ao pico do reino.
+
+Presa por sua linhagem e guiada por ecos de seu passado, Hornet se aventurará por grutas cobertas de musgo, florestas de corais e cidadelas brilhantes para desvendar um fio mortal que ameaça esta estranha nova terra.
+
+[img ao lado do paragrafo: gameplay]
+
+Ação Acrobática e Letal
+
+Hornet deve dominar um novo conjunto de movimentos poderosos para sobreviver. Ela desencadeará ataques devastadores, aprenderá incríveis habilidades de seda e criará ferramentas mortais para superar os desafios do reino.
+
+Mais de 150 novos inimigos estão entre Hornet e a brilhante cidadela que coroa o reino. Feras e caçadores, assassinos e reis, monstros e cavaleiros - Hornet deve enfrentá-los com bravura e habilidade!
+
+[img lado do p.: gameplay]
+
+Beleza e Maravilha em um Mundo Assombrado
+
+O vasto mundo interconectado de Hollow Knight: Silksong ganha vida em um estilo 2D tradicional feito à mão. Cidades douradas, lagos de fogo e pântanos enevoados são ilustrados com detalhes requintados e acompanhados por uma trilha sonora orquestral vibrante.
+
+Em sua busca pela verdade por trás de sua captura, Hornet fará amizade com estranhos surpreendentes, descobrirá segredos chocantes e resolverá mistérios antigos em um reino cheio de maravilhas.
+
+[img lado do p.: gameplay]
+
+[img: carrossel com varias imagens de gameplay]
+
+footer - listas 1
+
+Team Cherry
+Ari Gibson
+William Pellen
+Jack Vine
+
+Contato
+TeamCherry@gmail.com
+
+Hollow Knight is © Copyright 2023 Team Cherry
+
+lista 2
+
+Endereço
+Adelaide, Sul da Austrália
+
+Social
+Twitter
+YouTube
+Facebook
+
+lista 3
+
+[img: logo team cherry]
