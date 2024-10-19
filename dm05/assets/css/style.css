@@ -12,17 +12,15 @@ body {
     background-color: #000000;
 }
 
-article > img {
-    width: 800px;
-
-    position: absolute;
+article {
+    background-image: url(../image/Background.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
 }
-
 article > div {
     color: #ffffff;
     background-color: transparent;
-
-    position: relative;
 }
 article > div img{
     display: block;
