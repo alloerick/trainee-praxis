@@ -8,6 +8,10 @@
     padding: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #000000;
 }
@@ -34,7 +38,7 @@ header img {
     padding: 12px;
 }
 header img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition-duration: 0.3s;
 }
 
@@ -47,8 +51,8 @@ header > nav {
 }
 
 nav > a {
-    text-decoration: none;    
-    
+    text-decoration: none;
+
     padding: 0px 20px;
 }
 nav > a.botaopadrao:hover {
@@ -56,6 +60,7 @@ nav > a.botaopadrao:hover {
     background-color: #ffffffdd;
     border-radius: 20px;
 
+    scroll-behavior: smooth;
     transition-duration: 0.4s;
 
     padding: 10px 20px;
@@ -139,8 +144,8 @@ aside#plataforma {
     gap: 0px;
     align-items: center;
 
-    width: 100%;
     margin-top: 50px;
+    margin-left: 20px;
 }
 #plataforma > div img {
     max-width: 150px;
@@ -184,7 +189,7 @@ aside#historia {
     box-shadow: 0px -3px 14px #ecceff43;
     width: 380px;
 
-    padding: 30px 25px;
+    padding: 30px 20px;
 }
 .textoimg .texto h3 {
     text-align: center;
@@ -196,7 +201,7 @@ aside#historia {
     text-align: justify;
     text-indent: 20px;
     line-height: 1.2em;
-    font-size: 0.7em;
+    font-size: 0.8em;
 
     margin-top: 5px;
 }
@@ -268,6 +273,6 @@ footer div > ul a:hover {
     width: 92px;
 }
 #lista3 img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition-duration: 0.3s;
 }
