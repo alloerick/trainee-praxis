@@ -17,8 +17,10 @@ body {
 header {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #ffffff50;
+
 }
-header > img {
+header img {
     width: 72px;
     padding: 10px;
 }
@@ -32,11 +34,32 @@ nav > a {
     
     padding: 0px 20px;
 }
+nav > a.botaopadrao:hover {
+    color: #000000;
+    background-color: #ffffffdd;
+    border-radius: 20px;
+
+    transition-duration: 0.4s;
+
+    padding: 10px 20px;
+}
+
 a#botao {
     border: 2px solid #ffffff;
     border-radius: 25px;
 
     padding: 8px 15px;
+}
+#botao:hover {
+    color: #000000;
+    background-color: #ffffffdd;
+
+    transition-duration: 0.4s;
+}
+
+
+main { /* configurando o gradient de fundo */
+    background-image: linear-gradient(180deg, #000000 30%, #0a0b0e);
 }
 
 
@@ -135,7 +158,7 @@ aside#historia {
 }
 .textoimg .texto {
     border-radius: 20px;
-    box-shadow: 0px -2px 10px #cee5ff7d;
+    box-shadow: 0px -3px 14px #ecceff43;
     width: 380px;
 
     padding: 30px 25px;
@@ -164,8 +187,52 @@ aside#screenshots img {
     display: block;
     
     width: 480px;
-    margin: 10px auto;
+    margin: 100px auto 130px auto;
 }
 
 
 /* configurando a parte do footer */
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+    background-color: #0a0b0e;
+
+    padding: 20px 80px 60px 80px;
+}
+
+footer div > h4 {
+    font: bold 1.1em Helvetica;
+}
+footer div > p {
+    color: #ffffff50;
+    font: normal 0.7em Helvetica;
+}
+
+footer div > ul {
+    list-style-type: none;
+    margin: 14px 0px 35px 0px;
+}
+footer div > ul > li {
+    color: #ffffffdd;
+    font: normal 0.8em Helvetica;
+    line-height: 1.4em;
+}
+
+#lista1{
+    width: 260px;
+}
+#lista2{
+    width: 220px;
+}
+#lista3 {
+    position: relative;
+}
+#lista3 img {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+    width: 92px;
+}
