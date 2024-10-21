@@ -12,6 +12,8 @@ body {
     background-color: #000000;
 }
 
+
+/* configurando o header */
 header {
     display: flex;
     align-items: center;
@@ -30,7 +32,15 @@ nav > a {
     
     padding: 0px 20px;
 }
+a#botao {
+    border: 2px solid #ffffff;
+    border-radius: 25px;
 
+    padding: 8px 15px;
+}
+
+
+/* configirando a parte do jogo */
 article {
     background-image: url(../image/Background.png);
     background-repeat: no-repeat;
@@ -48,16 +58,114 @@ article > div h1 {
 
     color: #ffffff;
     background-color: transparent;
-    font: normal 0.8em helvetica;
+    font: bold 0.8em helvetica;
 
-    padding: 10px 20px;
-    margin: 70px auto;
-    border: 2px solid #ffffff;
+    padding: 8px 25px;
+    margin: 100px auto 0px auto;
+    border: 1px solid #ffffff;
     border-radius: 25px;
 }
 
 article > div img{
     display: block;
-    width: 400px;
-    margin: auto;
+    width: 350px;
+    margin: 10px auto 0px auto;
 }
+img#jogoimgsilksong{
+    width: 450px;
+    margin-top: 80px;
+}
+
+img.bordasombra { /* definindo bordas aredondadas e box-shagow para class="bordasombra" */
+    border-radius: 20px;
+    box-shadow: 0px -2px 10px #cee5ff6d;
+}
+
+
+/* configurando a parte de plataforma */
+aside#plataforma {
+    margin-top: 100px;
+    padding: 15px;
+}
+#plataforma > h2 {
+    color: #ffffffcc;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+}
+#plataforma > div {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0px;
+    align-items: center;
+
+    width: 100%;
+    margin-top: 50px;
+}
+#plataforma > div img {
+    max-width: 150px;
+}
+
+
+/* configurando a parte da historia */
+aside#historia {
+    padding: 15px;
+}
+
+#historia > h2 {
+    color: #ffffffcc;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+
+    margin: 60px 0px;
+}
+
+#historia .textoimg {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+    padding: 15px;
+    margin-top: 20px;
+}
+.textoimg img {
+    border-radius: 20px;
+    width: 380px;
+}
+.textoimg .texto {
+    border-radius: 20px;
+    box-shadow: 0px -2px 10px #cee5ff7d;
+    width: 380px;
+
+    padding: 30px 25px;
+}
+.textoimg .texto h3 {
+    text-align: center;
+    font-size: 1.1em;
+
+    margin-bottom: 25px;
+}
+.textoimg .texto p {
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.2em;
+    font-size: 0.7em;
+
+    margin-top: 5px;
+}
+
+
+/* configurando a parte do carrossel */
+aside#screenshots {
+    padding: 10px;
+}
+aside#screenshots img {
+    display: block;
+    
+    width: 480px;
+    margin: 10px auto;
+}
+
+
+/* configurando a parte do footer */
