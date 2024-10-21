@@ -177,6 +177,7 @@ aside#historia {
     gap: 20px;
     align-items: center;
     justify-content: center;
+    justify-items: center;
 
     padding: 15px;
     margin-top: 20px;
@@ -328,5 +329,40 @@ footer div > ul a:hover {
         position: relative;
 
         margin-top: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    article > div img{
+        width: 290px;
+    }
+    img#jogoimgsilksong{
+        width: 380px;
+    }
+    
+    #plataforma > div {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .textoimg img {
+        width: 350px;
+    }
+    .textoimg .texto {
+        width: 320px;
+    }
+    .textoimg .texto h3 {
+        font-size: 1em;
+    }
+    .textoimg .texto p {
+        font-size: 0.7em;
+    }
+
+    aside#screenshots img {
+        width: 380px;
+    }
+
+    footer {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
