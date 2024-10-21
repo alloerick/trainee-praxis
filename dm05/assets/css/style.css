@@ -16,16 +16,33 @@ body {
 /* configurando o header */
 header {
     display: flex;
+    justify-content: center;
     align-items: center;
-    border-bottom: 1px solid #ffffff50;
 
+    position: relative;
+
+    height: 80px;
+    border-bottom: 1px solid #ffffff50;
 }
 header img {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+
     width: 72px;
-    padding: 10px;
+    margin-left: 30px;
+    padding: 12px;
 }
+header img:hover {
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+}
+
 header > nav {
     display: inline-block;
+    justify-content: center;
+
+
     padding: 10px;
 }
 
@@ -127,6 +144,12 @@ aside#plataforma {
 }
 #plataforma > div img {
     max-width: 150px;
+    opacity: 0.8;
+}
+#plataforma img:hover {
+    opacity: 1;
+    transform: scale(1.2);
+    transition-duration: 0.3s;
 }
 
 
@@ -217,7 +240,15 @@ footer div > ul {
 footer div > ul > li {
     color: #ffffffdd;
     font: normal 0.8em Helvetica;
-    line-height: 1.4em;
+    line-height: 1.5em;
+}
+
+footer div > ul a {
+    text-decoration: none;
+}
+footer div > ul a:hover {
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 #lista1{
@@ -235,4 +266,8 @@ footer div > ul > li {
     right: 0px;
 
     width: 92px;
+}
+#lista3 img:hover {
+    transform: scale(1.2);
+    transition-duration: 0.3s;
 }
