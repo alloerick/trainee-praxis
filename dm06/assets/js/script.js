@@ -26,7 +26,7 @@ document.getElementById('alunoForm').addEventListener('submit', function(event) 
     document.getElementById('alunoForm').reset()
 });
 
-// função que exibi os alunos do array
+// função que exibi todos os alunos do array
 function displayAlunos() {
     const alunoList = document.getElementById('alunoList')
     alunoList.innerHTML = ''
