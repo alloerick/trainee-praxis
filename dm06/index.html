@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Alunos</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastre-se Aqui!</h1>
+        <form id="alunoForm">
+            <label for="name">Digite seu nome:</label>
+            <input type="text" id="name" required>
+            
+            <label for="age">Digite sua idade:</label>
+            <input type="number" id="age" required min="1">
+            
+            <button type="submit">Cadastrar</button>
+        </form>
+        
+        <h2>Alunos Cadastrados</h2>
+        <ul id="alunoList"></ul> <!-- id referente a lista para mostrar alunos cadastrados -->
+    </div>
+    
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
